@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bundle-SymbolicName: ArchiveFile_ByWebService
+Bundle-SymbolicName: iFlow_CICD_POC; singleton:=true
 Bundle-ManifestVersion: 2
-Origin-Bundle-SymbolicName: ArchiveFile_ByWebService
+Origin-Bundle-SymbolicName: iFlow_CICD_POC
 SAP-ArtifactTrait: 
 Import-Package: com.sap.esb.application.services.cxf.interceptor,com.s
  ap.esb.security,com.sap.it.op.agent.api,com.sap.it.op.agent.collector
@@ -29,10 +29,10 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.s
  ,com.sap.esb.camel.endpoint.configurator.api,com.sap.esb.camel.jdbc.i
  dempotency.reorg,javax.sql,org.apache.camel.processor.idempotent.jdbc
  ,org.osgi.service.blueprint;version="[1.0.0,2.0.0)"
-Origin-Bundle-Name: ArchiveFile_ByWebService
+Origin-Bundle-Name: iFlow_CICD_POC
 SAP-RuntimeProfile: iflmap
-Bundle-Name: ArchiveFile_ByWebService
-Bundle-Version: 1.0.1
+Bundle-Name: iFlow_CICD_POC
+Bundle-Version: 1.0.0
 SAP-NodeType: IFLMAP
 SAP-BundleType: IntegrationFlow
 Import-Service: com.sap.esb.webservice.audit.log.AuditLogger,com.sap.e
