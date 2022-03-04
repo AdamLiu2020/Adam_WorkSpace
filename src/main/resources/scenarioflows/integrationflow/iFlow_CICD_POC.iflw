@@ -93,7 +93,7 @@
                 </ifl:property>
                 <ifl:property>
                     <key>xsrfProtection</key>
-                    <value>1</value>
+                    <value>0</value>
                 </ifl:property>
                 <ifl:property>
                     <key>TransportProtocol</key>
