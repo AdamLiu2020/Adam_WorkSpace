@@ -1,0 +1,19 @@
+---
+general:
+  cpiApiServiceKeyCredentialsId: "cf-service-key"
+  integrationFlowId: "iFlow_CICD_POC"
+stages:
+  uploadStage:
+    enabled: true
+  deployStage:
+    enabled: true
+  integrationTestStage:
+    enabled: false
+steps:
+  integrationArtifactUpload:
+    packageId: "AdamWorkSpace"
+    integrationFlowName: "iFlow_CICD_POC"
+  integrationArtifactTriggerIntegrationTest:
+    contentType: ""
+    messageBodyPath: ""
+    integrationFlowServiceKeyCredentialsId: ""
